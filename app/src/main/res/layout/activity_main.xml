@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgclr"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="LOGIN"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+    <EditText
+        android:id="@+id/usr"
+        android:layout_width="714dp"
+        android:layout_height="62dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:background="@drawable/txtclr"
+        android:textColorHint="#ffffff"
+        android:padding="10dp"
+        android:hint="ID" />
+
+    <EditText
+        android:id="@+id/pswd"
+        android:layout_width="711dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/txtclr"
+        android:gravity="center"
+        android:textColorHint="#ffffff"
+        android:hint="Password"
+        android:inputType="textWebPassword"
+        android:padding="10dp"
+
+
+        />
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="722dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/btnclr"
+                android:padding="10dp"
+                android:text="Log in"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#ffffff" />
+
+            <TextView
+        android:id="@+id/newusr"
+        android:textColor="#ffffff"
+        android:layout_width="747dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:padding="7dp"
+        android:text="New here?"
+                android:layout_gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

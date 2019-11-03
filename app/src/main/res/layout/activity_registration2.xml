@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bgclr"
+    tools:context="com.harisproject.fbbeta1.RegistrationActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Registeration"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#ffffff"
+                android:textSize="25sp" />
+            <EditText
+                android:id="@+id/regusr"
+                android:layout_width="714dp"
+                android:layout_height="62dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:background="@drawable/txtclr"
+                android:textColorHint="#ffffff"
+                android:padding="10dp"
+                android:hint="ID" />
+
+            <EditText
+                android:id="@+id/regpswd"
+                android:layout_width="711dp"
+                android:layout_height="68dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/txtclr"
+                android:gravity="center"
+                android:textColorHint="#ffffff"
+                android:hint="Enter Password"
+                android:inputType="textWebPassword"
+                android:padding="10dp"/>
+            <EditText
+                android:id="@+id/confpswd"
+                android:layout_width="711dp"
+                android:layout_height="68dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@drawable/txtclr"
+                android:gravity="center"
+                android:textColorHint="#ffffff"
+                android:hint="re-enter Password"
+                android:inputType="textWebPassword"
+                android:padding="10dp"
+
+                />
+
+            <Button
+                android:id="@+id/Register"
+                android:layout_width="722dp"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/btnclr"
+                android:padding="10dp"
+                android:text="Register"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+            <TextView
+                android:id="@+id/signin"
+                android:textColor="#ffffff"
+                android:layout_width="747dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:padding="7dp"
+                android:text="Allready have a account?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
